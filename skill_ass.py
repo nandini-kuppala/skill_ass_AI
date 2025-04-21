@@ -1039,6 +1039,7 @@ def run_skill_assessment(resume_file, job_requirements):
         agents=[job_alignment_agent],
         tasks=[job_match_task],
         verbose=True,
+        memory_type="simple",
         process=Process.sequential
     )
     
