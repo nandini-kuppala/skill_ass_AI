@@ -1,0 +1,602 @@
+{
+  "resume_data": {
+    "personal_information": {
+      "name": "NANDINI KUPPALA",
+      "contact": {
+        "phone": "+91 7569056212",
+        "email": "knandini7816@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/nandini-kuppala/"
+      }
+    },
+    "skills": {
+      "languages": [
+        "Python",
+        "Dart",
+        "JavaScript",
+        "C"
+      ],
+      "frameworks": [
+        "Flutter",
+        "Flask",
+        "Streamlit"
+      ],
+      "tools": [
+        "Git",
+        "Docker",
+        "Selenium",
+        "Firebase",
+        "MySQL",
+        "MongoDB",
+        "Linux"
+      ],
+      "ai_and_development": [
+        "Generative AI",
+        "ML",
+        "DL",
+        "NLP",
+        "Computer Vision",
+        "Data Structures",
+        "Agile",
+        "Testing"
+      ]
+    },
+    "experience": [
+      {
+        "title": "Infosys Springboard Internship 5.O (AI Project Intern)",
+        "company": "Infosys",
+        "dates": "December 2024 - Present",
+        "responsibilities": [
+          "Led a team of five interns and built an AI system using NLP to automate ticket classification and responses.",
+          "Integrated with helpdesk platforms to enhance efficiency and reduce resolution time."
+        ]
+      },
+      {
+        "title": "Research Experience",
+        "company": null,
+        "dates": "October 2023 \u2013 Present",
+        "responsibilities": [
+          "Worked on real-time machine learning projects using LANDSAT data to monitor rangeland vegetation.",
+          "Contributed to a 30% increase in profitability for Wyoming farmers."
+        ],
+        "mentors": [
+          "Dr. Ramesh Sivanpillai (University of Wyoming)",
+          "Dr. Sajith Variyar (Amrita School of AI)"
+        ]
+      },
+      {
+        "title": "Campus Ambassador",
+        "company": "E-Cell IIT Bombay",
+        "dates": "August 2024 \u2013 December 2024",
+        "responsibilities": [
+          "Organized events and competitions reaching over 200 participants, promoting entrepreneurship in college."
+        ]
+      },
+      {
+        "title": "Security and Software Testing Intern",
+        "company": "Baavlibuch",
+        "dates": "February 2024 \u2013 April 2024",
+        "responsibilities": [
+          "Automated testing procedures, reducing manual testing effort by 40% and accelerating test case execution by 25%.",
+          "Debugged and fixed critical application bugs, enhancing stability and performance by 30%.",
+          "Implemented and managed testing environments in Linux, significantly improving security and data protection."
+        ]
+      }
+    ],
+    "education": {
+      "degree": "Bachelor of Engineering in Artificial Intelligence",
+      "institution": "Amrita Vishwa Vidyapeetham",
+      "location": "Coimbatore, Tamil Nadu",
+      "cgpa": "8.02",
+      "dates": "2022 \u2013 2026"
+    },
+    "projects": [
+      {
+        "name": "NurtureSync: A Health Care Companion",
+        "description": "Developed a mobile and web app platform to manage chronic diseases like thyroid and diabetes. Features include personalized feedback, medical report analysis, health tracking, and a healthcare community.",
+        "technologies": [
+          "Web \u2013 Streamlit, MongoDB, Firebase, Flask",
+          "Mobile \u2013 Flutter, Firebase, MongoDB"
+        ],
+        "link": "https://nurturesynchealth.streamlit.app/"
+      },
+      {
+        "name": "DeepFake Video Detection",
+        "description": "Improved the model\u2019s accuracy by 15% in detecting DeepFake videos using a pipeline of MTCNN for face detection, ResNet for feature extraction, and LSTM for temporal analysis. Developed a Chrome extension for DeepFake image detection and working towards real-time video detection",
+        "technologies": [
+          "MTCNN",
+          "ResNet",
+          "LSTM"
+        ],
+        "link": "https://github.com/nandini-queen-of-my-world/Deepfake-detection"
+      }
+    ],
+    "achievements": [
+      "Finalist at the Health Hackathon by Johns Hopkins University at VIT Bhopal, selected from 232 teams and over 1,300 participants for the project NurtureSync."
+    ],
+    "publications": [
+      {
+        "title": "Mapping Vegetation Dynamics in Wyoming: A Multi-Temporal Analysis Using Landsat NDVI and Clustering",
+        "conference": "ASPRS International Technical Symposium 2024",
+        "link": "https://isprs-archives.copernicus.org/articles/XLVIII-M-5-2024/87/2025/"
+      },
+      {
+        "title": "Preterm Birth Prediction Using GraphSAGE and Electrohysterogram Data",
+        "conference": "IEEE Eleventh International Conference on Biosignals, Images, and Instrumentation (ICBSII)",
+        "link": "https://isprs-archives.copernicus.org/articles/XLVIII-M-5-2024/87/2025/"
+      }
+    ],
+    "profiles": {
+      "github": "https://github.com/nandini-kuppala",
+      "leetcode": "https://leetcode.com/u/Nandini_Queen/",
+      "geeksforgeeks": "https://www.geeksforgeeks.org/user/knandin8fsf/",
+      "hackerrank": "https://www.hackerrank.com/profile/knandini7816"
+    },
+    "certifications": [
+      {
+        "name": "Artificial Intelligence Course Series (118 hr length)",
+        "issuer": "Infosys Springboard",
+        "link": "https://infyspringboard.onwingspan.com/web/en/app/profile/competency/certificate"
+      },
+      {
+        "name": "Agile Scrum in Practice",
+        "issuer": "Infosys Springboard",
+        "link": "https://infyspringboard.onwingspan.com/web/en/app/profile/competency/certificate"
+      },
+      {
+        "name": "Data Structures and Performance",
+        "issuer": "Coursera",
+        "link": "https://coursera.org/share/1d4edbf7bd94d9c9409693f3ed34623e"
+      },
+      {
+        "name": "Python Basic, Problem Solving Basic",
+        "issuer": "Hacker Rank",
+        "link": "https://www.hackerrank.com/certificates/29cd025a29fc"
+      }
+    ]
+  },
+  "profile_data": {
+    "github": {
+      "username": "nandini-kuppala",
+      "name": "Nandini ",
+      "bio": "Aspiring AI Engineer",
+      "public_repos": 30,
+      "followers": 10,
+      "following": 11,
+      "top_languages": [
+        "Jupyter Notebook",
+        "Python",
+        "HTML",
+        "JavaScript",
+        "C++"
+      ],
+      "starred_repos_count": 9,
+      "forks_count": 0,
+      "profile_created_at": "2022-12-12T17:12:54Z"
+    },
+    "leetcode": {
+      "username": "Nandini_Queen",
+      "total_problems_solved": 272,
+      "problems_by_difficulty": {
+        "All": 136,
+        "Easy": 58,
+        "Medium": 68,
+        "Hard": 10
+      },
+      "ranking": 883997,
+      "reputation": 0,
+      "badges": [
+        "Study Plan V2 Award"
+      ]
+    },
+    "geeksforgeeks": "Data not available",
+    "hackerrank": "Data not available"
+  },
+  "certification_data": [
+    {
+      "name": "Artificial Intelligence Course Series (118 hr length)",
+      "issuer": "Infosys Springboard",
+      "link": "https://infyspringboard.onwingspan.com/web/en/app/profile/competency/certificate"
+    },
+    {
+      "name": "Agile Scrum in Practice",
+      "issuer": "Infosys Springboard",
+      "link": "https://infyspringboard.onwingspan.com/web/en/app/profile/competency/certificate"
+    },
+    {
+      "name": "Data Structures and Performance",
+      "issuer": "Coursera",
+      "link": "https://coursera.org/share/1d4edbf7bd94d9c9409693f3ed34623e"
+    },
+    {
+      "name": "Python Basic, Problem Solving Basic",
+      "issuer": "Hacker Rank",
+      "link": "https://www.hackerrank.com/certificates/29cd025a29fc"
+    }
+  ],
+  "skill_evaluation": {
+    "evaluation": {
+      "languages": {
+        "Python": {
+          "rating": 8,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Used extensively in multiple projects (NurtureSync, DeepFake detection, research projects), LeetCode profile shows 272 problems solved, including Medium and Hard problems.  HackerRank certification in Python Basics.",
+          "notes": "Demonstrates proficiency beyond basic usage.  LeetCode performance suggests strong problem-solving skills."
+        },
+        "Dart": {
+          "rating": 7,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Used in Flutter mobile app development for NurtureSync.",
+          "notes": "Experience seems focused on Flutter framework rather than extensive Dart knowledge independently."
+        },
+        "JavaScript": {
+          "rating": 6,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Used in web development for NurtureSync (Streamlit integration) and potentially in the Chrome extension for DeepFake detection. GitHub profile shows JavaScript among top languages.",
+          "notes": "Evidence suggests functional knowledge, but not necessarily deep expertise."
+        },
+        "C": {
+          "rating": 5,
+          "claimed": true,
+          "demonstrated": false,
+          "evidence": "Claimed on resume, but no evidence of usage in projects or profiles.",
+          "notes": "Requires further evidence to confirm proficiency."
+        }
+      },
+      "frameworks": {
+        "Flutter": {
+          "rating": 7,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Used for mobile app development in NurtureSync project.",
+          "notes": "Demonstrates practical application in a significant project."
+        },
+        "Flask": {
+          "rating": 6,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Used in NurtureSync web app development.",
+          "notes": "Shows basic web application development skills."
+        },
+        "Streamlit": {
+          "rating": 6,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Used in NurtureSync web app development.",
+          "notes": "Demonstrates ability to build interactive web apps quickly."
+        }
+      },
+      "tools": {
+        "Git": {
+          "rating": 8,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Active GitHub profile with multiple repositories.",
+          "notes": "Consistent use indicated by numerous repositories."
+        },
+        "Docker": {
+          "rating": 5,
+          "claimed": true,
+          "demonstrated": false,
+          "evidence": "Listed on resume, but no project details show its usage.",
+          "notes": "Requires further evidence to confirm proficiency."
+        },
+        "Selenium": {
+          "rating": 7,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Used in Baavlibuch internship for automated testing.",
+          "notes": "Demonstrates practical experience in automation testing."
+        },
+        "Firebase": {
+          "rating": 7,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Used in NurtureSync for backend and potentially authentication.",
+          "notes": "Shows experience with cloud-based backend services."
+        },
+        "MySQL": {
+          "rating": 6,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Used in NurtureSync (resume claims).",
+          "notes": "Further details on usage would strengthen the rating."
+        },
+        "MongoDB": {
+          "rating": 7,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Used in NurtureSync for database management.",
+          "notes": "Demonstrates experience with NoSQL databases."
+        },
+        "Linux": {
+          "rating": 6,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Used in Baavlibuch internship for managing testing environments.",
+          "notes": "Experience seems limited to testing environments."
+        }
+      },
+      "ai_and_development": {
+        "Generative AI": {
+          "rating": 5,
+          "claimed": true,
+          "demonstrated": false,
+          "evidence": "Claimed on resume, but no specific projects demonstrate expertise.",
+          "notes": "Requires further evidence to confirm proficiency."
+        },
+        "ML": {
+          "rating": 8,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Research experience with real-time machine learning projects using LANDSAT data, DeepFake detection project.",
+          "notes": "Demonstrates practical application in research and a significant project."
+        },
+        "DL": {
+          "rating": 7,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Used in DeepFake detection project (ResNet, LSTM).",
+          "notes": "Demonstrates understanding and application of deep learning techniques."
+        },
+        "NLP": {
+          "rating": 7,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Used in Infosys internship for automating ticket classification and responses.",
+          "notes": "Demonstrates practical application in a real-world setting."
+        },
+        "Computer Vision": {
+          "rating": 7,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Used in DeepFake detection project (MTCNN for face detection).",
+          "notes": "Demonstrates understanding and application of computer vision techniques."
+        },
+        "Data Structures": {
+          "rating": 7,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Coursera certification in Data Structures and Performance, LeetCode performance.",
+          "notes": "Strong evidence from certification and LeetCode performance."
+        },
+        "Agile": {
+          "rating": 6,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Infosys Springboard certification in Agile Scrum in Practice.",
+          "notes": "Certification indicates theoretical knowledge; practical experience needs further verification."
+        },
+        "Testing": {
+          "rating": 7,
+          "claimed": true,
+          "demonstrated": true,
+          "evidence": "Experience in Baavlibuch internship, focusing on automation and improving efficiency.",
+          "notes": "Demonstrates practical skills in software testing and automation."
+        }
+      }
+    },
+    "overall_assessment": {
+      "practical_application": "The candidate demonstrates strong practical application of claimed skills across multiple projects, internships, and research experiences.  The projects showcase a good balance of theoretical knowledge and practical implementation.",
+      "depth_of_knowledge": "The candidate possesses a good depth of knowledge in machine learning, deep learning, NLP, and computer vision.  Knowledge of data structures and algorithms is also evident.",
+      "learning_ability": "The candidate's skill acquisition timeline, demonstrated by diverse projects and certifications, suggests a strong learning ability and adaptability.",
+      "technical_strengths": "Strong problem-solving skills (evidenced by LeetCode performance), proficiency in Python and related AI/ML libraries, experience with web and mobile app development, and practical experience in software testing and automation.",
+      "growth_areas": "Expand experience with Generative AI, further develop expertise in C programming language, and gain more experience with Docker and other DevOps tools.  More focus on theoretical understanding of Agile methodologies would be beneficial.",
+      "specialization_vs_generalist": "The candidate leans towards a specialization in AI/ML, but also possesses a good breadth of skills in web and mobile development and software testing, making them a versatile candidate.",
+      "coding_skills": "Strong coding skills are evident from the LeetCode profile (272 problems solved), indicating a good understanding of data structures and algorithms.",
+      "open_source_contribution": "The GitHub profile shows a moderate level of open-source contribution (30 public repositories).  While the number of followers and forks is relatively low, the consistent activity suggests a commitment to learning and development.",
+      "active_participation": "LinkedIn profile data is not available for a complete assessment of active participation.",
+      "achievements": "Finalist at the Health Hackathon by Johns Hopkins University, demonstrating project success and recognition.",
+      "industry_exposure": "Internships at Infosys and Baavlibuch provide valuable industry exposure.",
+      "academic_achievements": "A CGPA of 8.02 and publications in ASPRS and IEEE conferences demonstrate strong academic achievements and research capabilities.",
+      "novelty_of_projects": "The NurtureSync project demonstrates novelty in addressing a real-world healthcare problem. The research on rangeland vegetation monitoring using LANDSAT data also showcases novelty in application."
+    }
+  },
+  "job_match": {
+    "assessment": {
+      "essential_requirements": {
+        "experience": {
+          "match_percentage": 90,
+          "details": "While the candidate's resume doesn't explicitly state 5+ years of *professional* software development experience, the breadth and depth of projects, internships (Infosys, Baavlibuch), and research activities strongly suggest a comparable level of practical experience and skill development. The numerous projects demonstrate consistent engagement and learning over an extended period.  Further clarification on the timeline of these activities would solidify this assessment."
+        },
+        "python": {
+          "match_percentage": 90,
+          "details": "The candidate demonstrates strong proficiency in Python (rating 8), with extensive usage in multiple projects and a strong LeetCode profile. This exceeds the basic requirement."
+        },
+        "javascript": {
+          "match_percentage": 70,
+          "details": "The candidate's JavaScript proficiency (rating 6) is functional but may not reach the 'strong' level expected for a senior role.  More evidence of complex JavaScript application is needed.  This is a potential area for improvement."
+        },
+        "react_django": {
+          "match_percentage": 40,
+          "details": "The candidate's skill evaluation doesn't directly mention experience with React.js or Django.  While Flask and Streamlit demonstrate web development skills, they are not direct equivalents. This represents a significant gap that needs to be addressed."
+        },
+        "restful_api": {
+          "match_percentage": 60,
+          "details": "The evaluation doesn't explicitly state RESTful API experience.  However, the use of Firebase in NurtureSync suggests familiarity with backend services and potentially REST principles.  Further clarification is needed to confirm this."
+        },
+        "cloud_platforms": {
+          "match_percentage": 70,
+          "details": "The use of Firebase in NurtureSync indicates experience with a cloud platform, but it's not AWS or Azure.  This partially fulfills the requirement, but experience with AWS or Azure is still needed."
+        },
+        "ci_cd_devops": {
+          "match_percentage": 30,
+          "details": "The candidate's skill evaluation lacks direct evidence of experience with CI/CD pipelines and DevOps practices.  This is a significant gap that needs to be addressed."
+        }
+      },
+      "preferred_requirements": {
+        "typescript_nodejs": {
+          "match_percentage": 0,
+          "details": "No evidence of experience with TypeScript or Node.js."
+        },
+        "container_technologies": {
+          "match_percentage": 20,
+          "details": "The candidate claims Docker experience, but lacks demonstrable project evidence. This is a gap that can be addressed with further training."
+        },
+        "database_design": {
+          "match_percentage": 70,
+          "details": "The candidate demonstrates experience with MySQL and MongoDB, indicating familiarity with database management.  However, experience with database design and optimization needs further clarification."
+        },
+        "microservices": {
+          "match_percentage": 0,
+          "details": "No evidence of experience with microservices architecture."
+        },
+        "mentoring": {
+          "match_percentage": 0,
+          "details": "No evidence of mentoring junior developers."
+        }
+      },
+      "experience_level": {
+        "match_percentage": 80,
+        "details": "The candidate's diverse projects and research demonstrate a strong foundation and practical skills. However, the lack of explicit 5+ years of professional experience in a similar role requires further clarification."
+      },
+      "cultural_fit": {
+        "match_percentage": 75,
+        "details": "The candidate's achievements (Health Hackathon finalist), research publications, and diverse project portfolio suggest a proactive, results-oriented, and collaborative personality.  Further assessment through interviews would be needed to fully evaluate cultural fit."
+      },
+      "growth_potential": {
+        "match_percentage": 85,
+        "details": "The candidate's strong learning ability, demonstrated by diverse skills and consistent project engagement, suggests high growth potential.  The identified growth areas (React, Django, CI/CD, etc.) are addressable through focused learning and development."
+      }
+    },
+    "overall_match_percentage": 60,
+    "detailed_explanation": "The candidate possesses strong skills in Python, AI/ML, and data science, exceeding expectations in some areas. However, significant gaps exist in essential front-end technologies (React), backend frameworks (Django), and DevOps practices.  While the candidate's overall experience and learning ability are impressive, addressing these critical gaps is crucial before considering them for a Senior Full Stack Developer role.  Further investigation into the timeline of their projects and a deeper dive into their experience with APIs and cloud platforms are necessary to refine this assessment."
+  },
+  "evaluation_results": {
+    "evaluation_pipeline": {
+      "stage1": {
+        "name": "Basic Eligibility Check",
+        "max_score": 20,
+        "score": 18,
+        "justification": "The candidate meets most basic eligibility criteria.  While the resume doesn't explicitly state 5+ years of professional experience, the extensive project history suggests comparable practical experience.  A slight deduction is applied due to the lack of explicit statement of professional experience.",
+        "key_factors": {
+          "education": "Bachelor of Engineering in Artificial Intelligence - Met",
+          "experience": "Extensive project history, but lacks explicit 5+ years professional experience - Partially Met",
+          "certifications": "Multiple relevant certifications - Met",
+          "location": "Location data not used in this evaluation - N/A"
+        }
+      },
+      "stage2": {
+        "name": "Skill Match Evaluation",
+        "max_score": 40,
+        "score": 28,
+        "justification": "The candidate demonstrates strong skills in Python and AI/ML, exceeding expectations in some areas. However, significant gaps exist in essential front-end technologies (React), backend frameworks (Django), and DevOps practices.  Essential skills are weighted higher than preferred skills.",
+        "key_factors": {
+          "matched_skills": {
+            "Python": 90,
+            "ML": 90,
+            "DL": 80,
+            "NLP": 80,
+            "Computer Vision": 80,
+            "Data Structures": 80,
+            "Testing": 80,
+            "Firebase": 70,
+            "MongoDB": 70,
+            "JavaScript": 70,
+            "Flutter": 70,
+            "Flask": 60,
+            "Streamlit": 60,
+            "Linux": 60,
+            "Selenium": 70,
+            "Agile": 60,
+            "Database Design": 70
+          },
+          "missing_skills": {
+            "React": 0,
+            "Django": 0,
+            "CI/CD": 0,
+            "DevOps": 0,
+            "TypeScript": 0,
+            "Node.js": 0,
+            "Microservices": 0
+          },
+          "bonus_skills": {
+            "Docker": 20,
+            "Restful API": 60
+          }
+        }
+      },
+      "stage3": {
+        "name": "Domain-Specific Experience Check",
+        "max_score": 15,
+        "score": 12,
+        "justification": "The candidate demonstrates relevant domain experience through research projects and publications.  The projects and research focus on AI/ML applications, aligning well with the expected domain.",
+        "key_factors": {
+          "research_experience": "Real-time machine learning projects using LANDSAT data - 8 points",
+          "publications": "Publications in ASPRS and IEEE conferences - 4 points"
+        }
+      },
+      "stage4": {
+        "name": "Role Fit and Achievements Alignment",
+        "max_score": 25,
+        "score": 20,
+        "justification": "The candidate's achievements align well with the job responsibilities, demonstrating project success and leadership.  The Health Hackathon finalist position and research publications showcase impact and initiative.",
+        "key_factors": {
+          "health_hackathon": "Finalist at Johns Hopkins University Health Hackathon - 10 points",
+          "research_publications": "Publications in ASPRS and IEEE conferences - 5 points",
+          "leadership_experience": "Led a team of five interns in Infosys internship - 5 points"
+        }
+      },
+      "overall": {
+        "total_score": 78,
+        "recommendation": "Proceed to interview"
+      }
+    }
+  },
+  "interview_questions": {
+    "questions": [
+      {
+        "question": "Your NurtureSync project uses both Streamlit and Flask.  Can you describe the architectural decisions behind choosing these frameworks for the web and mobile components?  What were the trade-offs involved, and how did you handle data synchronization between the web and mobile apps?",
+        "assessment": "Assesses architectural design choices, understanding of framework strengths and weaknesses, and data synchronization strategies.",
+        "good_answer": "Should include a clear explanation of why Streamlit was chosen for rapid prototyping and user-friendly dashboards, while Flask provided a more robust backend.  The answer should also detail how data was synchronized (e.g., using Firebase Realtime Database or a similar solution), including considerations for data consistency and scalability.",
+        "difficulty": "Intermediate",
+        "skill_gap_addressed": "React/Django gap - indirectly assesses ability to adapt to different frameworks"
+      },
+      {
+        "question": "In your DeepFake detection project, you used MTCNN, ResNet, and LSTM.  Explain the role of each component in your pipeline.  If you were to improve the accuracy further, what other techniques or architectures would you consider, and why?",
+        "assessment": "Assesses understanding of deep learning architectures and their application in computer vision.",
+        "good_answer": "Should demonstrate a thorough understanding of each component's function (MTCNN for face detection, ResNet for feature extraction, LSTM for temporal analysis).  The answer should also propose advanced techniques like attention mechanisms, transformer networks, or improved data augmentation strategies, justifying the choices based on their potential to enhance accuracy.",
+        "difficulty": "Advanced",
+        "skill_gap_addressed": "None - directly assesses existing expertise"
+      },
+      {
+        "question": "Your resume mentions using Selenium for automated testing at Baavlibuch.  Describe a challenging bug you encountered and how you used Selenium to help identify and resolve it.  What strategies did you employ to ensure the effectiveness and maintainability of your automated tests?",
+        "assessment": "Assesses practical experience with automated testing and problem-solving skills.",
+        "good_answer": "Should describe a specific bug, detailing the steps taken to isolate the problem using Selenium.  The answer should also include strategies for test design (e.g., unit tests, integration tests), test data management, and continuous integration.",
+        "difficulty": "Intermediate",
+        "skill_gap_addressed": "CI/CD gap - indirectly assesses understanding of testing within a development pipeline"
+      },
+      {
+        "question": "You've worked with both MySQL and MongoDB.  Compare and contrast these database systems, highlighting their strengths and weaknesses.  In what situations would you choose one over the other for a new project?",
+        "assessment": "Assesses understanding of database systems and their appropriate application.",
+        "good_answer": "Should accurately compare relational (MySQL) and NoSQL (MongoDB) databases, discussing their suitability for different data models and application requirements.  The answer should demonstrate an understanding of ACID properties, scalability, and data consistency.",
+        "difficulty": "Intermediate",
+        "skill_gap_addressed": "Database design gap - indirectly assesses ability to choose appropriate database technology"
+      },
+      {
+        "question": "Let's say you're tasked with designing a scalable system for processing and analyzing large volumes of LANDSAT data, similar to your research project.  Describe your high-level system architecture, including data ingestion, storage, processing, and visualization components.  What technologies would you choose and why?",
+        "assessment": "Assesses system design skills and ability to apply knowledge to a real-world scenario.",
+        "good_answer": "Should include a well-structured system architecture diagram, outlining key components and their interactions.  The answer should justify technology choices (e.g., cloud storage like AWS S3, distributed processing frameworks like Spark or Hadoop, visualization tools like Tableau or custom dashboards) based on scalability, performance, and cost considerations.",
+        "difficulty": "Advanced",
+        "skill_gap_addressed": "Cloud platforms and CI/CD gap - indirectly assesses ability to design a scalable system that would likely incorporate these technologies"
+      },
+      {
+        "question": "Imagine you need to integrate a new feature into NurtureSync that uses a generative AI model to provide personalized health advice.  How would you approach this task, considering factors like data privacy, model accuracy, and user experience?  What are some potential challenges you might encounter?",
+        "assessment": "Assesses problem-solving skills, ability to integrate new technologies, and awareness of ethical considerations.",
+        "good_answer": "Should outline a phased approach, starting with data preparation and model selection.  The answer should address data privacy concerns (e.g., anonymization, secure storage), potential biases in the AI model, and strategies for user feedback and model refinement.  The answer should also identify potential challenges, such as model latency, explainability, and the need for human oversight.",
+        "difficulty": "Advanced",
+        "skill_gap_addressed": "Generative AI gap - directly assesses ability to integrate this technology"
+      },
+      {
+        "question": "You haven't explicitly mentioned experience with React.js or Node.js.  If you were to learn one of these technologies for a new project, which would you choose and why? What resources would you use to learn it effectively, and what approach would you take to build a small project to demonstrate your understanding?",
+        "assessment": "Assesses adaptability and learning agility.",
+        "good_answer": "Should justify the choice of technology (React.js for front-end or Node.js for back-end) based on project needs and personal preferences.  The answer should include a plan for learning (e.g., online courses, documentation, tutorials) and a proposed small project to demonstrate understanding, showcasing a practical approach to learning new technologies.",
+        "difficulty": "Intermediate",
+        "skill_gap_addressed": "React/Node.js gap - directly assesses ability to learn new technologies"
+      }
+    ]
+  },
+  "summary": "# Nandini Kuppala - Assessment Summary\n\n**Candidate Overview:**\n\nNandini Kuppala is a highly motivated and accomplished aspiring AI Engineer pursuing a Bachelor of Engineering in Artificial Intelligence at Amrita Vishwa Vidyapeetham.  Her diverse experience includes internships at Infosys and Baavlibuch, research projects, and impactful contributions to open-source projects.  Her strong academic record, complemented by numerous certifications and publications, makes her a compelling candidate.\n\n\n**Overall Evaluation Score:**\n\n```\n| Category                     | Score |\n|------------------------------|-------|\n| Basic Eligibility Check      | 18/20 |\n| Skill Match Evaluation       | 28/40 |\n| Domain-Specific Experience   | 12/15 |\n| Role Fit & Achievements     | 20/25 |\n| **Overall Score**           | **78/100** |\n```\n\n**\ud83c\udf1f Key Strengths:**\n\n*   **AI/ML Expertise:**  Demonstrates strong practical application of AI/ML concepts through research projects (LANDSAT data analysis, resulting in a 30% profitability increase for Wyoming farmers), a DeepFake detection project (15% accuracy improvement), and an NLP-based AI system for Infosys (automating ticket classification).  `\u2b50\u2b50\u2b50\u2b50`\n*   **Software Development Proficiency:**  Proficient in Python (`\u2b50\u2b50\u2b50\u2b50`) and has built both web (Streamlit, Flask, MongoDB, Firebase) and mobile (Flutter, Firebase, MongoDB) applications (NurtureSync). `\u2b50\u2b50\u2b50\u2728`\n*   **Problem-Solving Skills:**  Solved 272 problems on LeetCode, including Medium and Hard challenges, showcasing strong algorithmic and data structure skills. `\u2b50\u2b50\u2b50\u2b50`\n*   **Testing & Automation:**  Automated testing procedures at Baavlibuch, reducing manual effort by 40% and accelerating test execution by 25%. `\u2b50\u2b50\u2b50\u2728`\n*   **Research & Publication:**  Published research in ASPRS and IEEE conferences, demonstrating strong academic achievements and research capabilities.  `\u2b50\u2b50\u2b50\u2728`\n\n\n**Areas for Growth:**\n\n*   **Front-end Frameworks:** Limited experience with React.js and Django.\n*   **DevOps:** Needs more experience with CI/CD pipelines and containerization (Docker).\n*   **Generative AI:**  Requires further experience in this emerging field.\n*   **TypeScript/Node.js:**  No demonstrable experience.\n\n\n**Overall Job Match:**\n\nThe candidate's skills and experience align well with the requirements, particularly in AI/ML and Python. However, gaps exist in front-end technologies, backend frameworks (Django), and DevOps practices.  Overall match percentage: 60%.\n\n\n**Recommendations for the Hiring Team:**\n\n*   Focus interview questions on assessing the candidate's ability to learn and adapt to new technologies (React, Django, CI/CD).\n*   Evaluate their understanding of system design and architecture, particularly for scalable solutions.\n*   Assess their problem-solving skills through practical coding challenges.\n\n\n**Suggested Next Steps:**\n\n1.  Schedule a technical interview to assess coding skills and address skill gaps.\n2.  Conduct a cultural fit interview to evaluate personality and teamwork abilities.\n3.  Provide opportunities for the candidate to demonstrate their ability to quickly learn and adapt to new technologies.\n\n\n**Recommendation:** Proceed to interview, focusing on assessing the candidate's ability to quickly learn and adapt to the identified skill gaps.  The candidate's strong foundation and impressive achievements make them a promising candidate with high growth potential."
+}
