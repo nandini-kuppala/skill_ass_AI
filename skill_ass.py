@@ -1,6 +1,6 @@
 # !pip install crewai python-dotenv PyPDF2 python-docx PyMuPDF langchain langchain-google-genai google-generativeai beautifulsoup4 requests
+import streamlit as st
 import os
-from dotenv import load_dotenv
 import json
 import re
 import pandas as pd
@@ -29,11 +29,9 @@ from langchain_community.chat_models import ChatLiteLLM
 from crewai import Agent, Task, Process, Crew
 from crewai.tools.base_tool import BaseTool as Tool
 # Load environment variables
-load_dotenv()
-
 # Configure API keys
-SERPER_API_KEY = os.getenv("SERPER_API_KEY")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+SERPER_API_KEY = st.secrets["SERPER_API_KEY"]
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 
 # Verify API keys are loaded
 print(f"SERPER_API_KEY loaded: {'Yes' if SERPER_API_KEY else 'No'}")
