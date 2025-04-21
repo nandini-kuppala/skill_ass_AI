@@ -10,6 +10,7 @@ import skill_ass
 import time
 import altair as alt
 # For PDF generation
+import io
 from reportlab.lib.pagesizes import letter
 from reportlab.lib import colors
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
@@ -909,12 +910,7 @@ def download_results(results):
 def download_report_pdf(results):
     """Generate a PDF report of the analysis results"""
     try:
-        import io
-        from reportlab.lib.pagesizes import letter
-        from reportlab.lib import colors
-        from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
-        from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-        
+       
         # Create a BytesIO object to store the PDF
         pdf_buffer = BytesIO()
         
