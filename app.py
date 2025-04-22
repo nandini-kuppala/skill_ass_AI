@@ -886,7 +886,7 @@ def display_full_analysis(results):
                             
                             if isinstance(stage, dict):
                                 score = stage.get("score", "N/A")
-                                max_score = stage.get("max_score",100)
+                                max_score = stage.get("max_score",40)
                                 
                                 st.markdown(f"<div style='text-align: center;'><h2>{score}/{max_score}</h2></div>", unsafe_allow_html=True)
                                 
