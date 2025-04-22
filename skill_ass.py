@@ -1,35 +1,24 @@
 # !pip install crewai python-dotenv PyPDF2 python-docx PyMuPDF langchain langchain-google-genai google-generativeai beautifulsoup4 requests
-import streamlit as st
 import os
 import json
 import re
-import pandas as pd
-from typing import List, Dict, Any, Optional
 import traceback
-from urllib.parse import quote_plus
 import PyPDF2
 import docx
-import fitz  # PyMuPDF
-import base64
-from io import BytesIO
+import fitz
 
 # For web scraping
 import requests
-from bs4 import BeautifulSoup
-
 # For LLM integrations
 import google.generativeai as genai
-from langchain_google_genai import ChatGoogleGenerativeAI as GoogleGenerativeAI
-from langchain.chains import LLMChain
-from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.chat_models import ChatLiteLLM
 
 # For Crew AI
 from crewai import Agent, Task, Process, Crew
 from crewai.tools.base_tool import BaseTool as Tool
 # Load environment variables
-# Configure API keys
+import streamlit as st
+
 SERPER_API_KEY = st.secrets["SERPER_API_KEY"]
 GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 
@@ -300,8 +289,6 @@ def extract_text_from_document(file):
             print(f"Error processing document: {str(e)}")
             return f"Error processing document: {str(e)}"
 
-import re
-import json
 
 def extract_profile_links(text):
     """Extract coding profile links and other professional profile links from text."""
