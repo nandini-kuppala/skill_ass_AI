@@ -1,4 +1,9 @@
 # Add these imports at the top of the file
+# Fix for SQLite version issues with ChromaDB
+import sys
+import os
+__import__('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import streamlit as st
 import os
 import json
