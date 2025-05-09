@@ -1538,7 +1538,7 @@ def main():
             </div>
             """, unsafe_allow_html=True)
             
-            st.markdown("""
+        st.markdown("""
             <div style="margin-top: 30px;">
                 <h3 style="color: #1e40af;">How It Works</h3>
                 
