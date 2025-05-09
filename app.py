@@ -1537,45 +1537,43 @@ def main():
                 </p>
             </div>
             """, unsafe_allow_html=True)
-            
+    
         st.markdown("""
-            <div style="margin-top: 30px;">
-                <h3 style="color: #1e40af;">How It Works</h3>
-                
-                <div style="display: flex; align-items: center; margin: 20px 0; background-color: white; padding: 16px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-                    <div style="background-color: #3b82f6; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 16px;">1</div>
-                    <div>
-                        <h4 style="margin: 0; color: #1e40af;">Upload a resume</h4>
-                        <p style="margin: 5px 0 0; color: #4b5563;">in PDF, DOCX, or TXT format</p>
-                    </div>
-                </div>
-                
-                <div style="display: flex; align-items: center; margin: 20px 0; background-color: white; padding: 16px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-                    <div style="background-color: #3b82f6; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 16px;">2</div>
-                    <div>
-                        <h4 style="margin: 0; color: #1e40af;">Enter a job description</h4>
-                        <p style="margin: 5px 0 0; color: #4b5563;">with requirements and responsibilities</p>
-                    </div>
-                </div>
-                
-                <div style="display: flex; align-items: center; margin: 20px 0; background-color: white; padding: 16px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-                    <div style="background-color: #3b82f6; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 16px;">3</div>
-                    <div>
-                        <h4 style="margin: 0; color: #1e40af;">Get an AI-powered analysis</h4>
-                        <p style="margin: 5px 0 0; color: #4b5563;">including skill evaluations, job match analysis, and recommendations</p>
-                    </div>
+        <div style="margin-top: 30px;">
+            <h3 style="color: #1e40af;">How It Works</h3>
+    
+            <div style="display: flex; align-items: center; margin: 20px 0; background-color: white; padding: 16px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                <div style="background-color: #3b82f6; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 16px;">1</div>
+                <div>
+                    <h4 style="margin: 0; color: #1e40af;">Upload a resume</h4>
+                    <p style="margin: 5px 0 0; color: #4b5563;">in PDF, DOCX, or TXT format</p>
                 </div>
             </div>
-            
-            <div style="margin-top: 30px; background-color: #e0f2fe; padding: 20px; border-radius: 10px; border-left: 5px solid #38bdf8;">
-                <h3 style="color: #0c4a6e; margin-top: 0;">Privacy & Data</h3>
-                <p style="color: #0e7490; margin-bottom: 0;">
-                    All data is processed temporarily and not stored permanently. Analysis results can be downloaded for your records.
-                </p>
+    
+            <div style="display: flex; align-items: center; margin: 20px 0; background-color: white; padding: 16px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                <div style="background-color: #3b82f6; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 16px;">2</div>
+                <div>
+                    <h4 style="margin: 0; color: #1e40af;">Enter a job description</h4>
+                    <p style="margin: 5px 0 0; color: #4b5563;">with requirements and responsibilities</p>
+                </div>
             </div>
-            """, unsafe_allow_html=True)
-            
-            st.markdown('</div>', unsafe_allow_html=True)
+    
+            <div style="display: flex; align-items: center; margin: 20px 0; background-color: white; padding: 16px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                <div style="background-color: #3b82f6; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 16px;">3</div>
+                <div>
+                    <h4 style="margin: 0; color: #1e40af;">Get an AI-powered analysis</h4>
+                    <p style="margin: 5px 0 0; color: #4b5563;">including skill evaluations, job match analysis, and recommendations</p>
+                </div>
+            </div>
+        </div>
+    
+        <div style="margin-top: 30px; background-color: #e0f2fe; padding: 20px; border-radius: 10px; border-left: 5px solid #38bdf8;">
+            <h3 style="color: #0c4a6e; margin-top: 0;">Privacy & Data</h3>
+            <p style="color: #0e7490; margin-bottom: 0;">
+                All data is processed temporarily and not stored permanently. Analysis results can be downloaded for your records.
+            </p>
+        </div>
+        """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
