@@ -1499,49 +1499,56 @@ def main():
         </div>
         """, unsafe_allow_html=True)
         
-        # Create three columns for benefits
-        col1, col2, col3 = st.columns(3)
-        
-        with col1:
-            st.markdown("""
-            <div style="background-color: white; border-left: 4px solid #3b82f6; padding: 16px; border-radius: 0 10px 10px 0; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-                <h4 style="color: #1e40af; display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 1.5rem;">👔</span> For Recruiters
-                </h4>
-                <p style="color: #4b5563;">
-                    Evaluate candidate skills and job fit quickly and objectively, saving time in the screening process.
-                </p>
-            </div>
-            """, unsafe_allow_html=True)
-            
-        with col2:
-            st.markdown("""
-            <div style="background-color: white; border-left: 4px solid #3b82f6; padding: 16px; border-radius: 0 10px 10px 0; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-                <h4 style="color: #1e40af; display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 1.5rem;">👤</span> For Candidates
-                </h4>
-                <p style="color: #4b5563;">
-                    Understand how your resume matches job requirements and identify areas for improvement.
-                </p>
-            </div>
-            """, unsafe_allow_html=True)
-            
-        with col3:
-            st.markdown("""
-            <div style="background-color: white; border-left: 4px solid #3b82f6; padding: 16px; border-radius: 0 10px 10px 0; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-                <h4 style="color: #1e40af; display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 1.5rem;">🧠</span> For Hiring Managers
-                </h4>
-                <p style="color: #4b5563;">
-                    Create better interview questions based on candidate profiles and identified skill gaps.
-                </p>
-            </div>
-            """, unsafe_allow_html=True)
+        main_container = st.container()
     
-        st.markdown("""
-        <div style="margin-top: 30px;">
-            <h3 style="color: #1e40af;">How It Works</h3>
-    
+        with main_container:
+            # Create columns for the three user types
+            cols = st.columns(3)
+            
+            with cols[0]:
+                st.markdown("""
+                <div style="background-color: white; border-left: 4px solid #3b82f6; padding: 16px; border-radius: 0 10px 10px 0; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                    <h4 style="color: #1e40af; display: flex; align-items: center; gap: 8px;">
+                        <span style="font-size: 1.5rem;">👔</span> For Recruiters
+                    </h4>
+                    <p style="color: #4b5563;">
+                        Evaluate candidate skills and job fit quickly and objectively, saving time in the screening process.
+                    </p>
+                </div>
+                """, unsafe_allow_html=True)
+                
+            with cols[1]:
+                st.markdown("""
+                <div style="background-color: white; border-left: 4px solid #3b82f6; padding: 16px; border-radius: 0 10px 10px 0; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                    <h4 style="color: #1e40af; display: flex; align-items: center; gap: 8px;">
+                        <span style="font-size: 1.5rem;">👤</span> For Candidates
+                    </h4>
+                    <p style="color: #4b5563;">
+                        Understand how your resume matches job requirements and identify areas for improvement.
+                    </p>
+                </div>
+                """, unsafe_allow_html=True)
+                
+            with cols[2]:
+                st.markdown("""
+                <div style="background-color: white; border-left: 4px solid #3b82f6; padding: 16px; border-radius: 0 10px 10px 0; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                    <h4 style="color: #1e40af; display: flex; align-items: center; gap: 8px;">
+                        <span style="font-size: 1.5rem;">🧠</span> For Hiring Managers
+                    </h4>
+                    <p style="color: #4b5563;">
+                        Create better interview questions based on candidate profiles and identified skill gaps.
+                    </p>
+                </div>
+                """, unsafe_allow_html=True)
+            
+            # Add some spacing
+            st.write("")
+            
+            # How It Works section
+            st.markdown("<h3 style='color: #1e40af;'>How It Works</h3>", unsafe_allow_html=True)
+            
+            # Step 1
+            st.markdown("""
             <div style="display: flex; align-items: center; margin: 20px 0; background-color: white; padding: 16px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
                 <div style="background-color: #3b82f6; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 16px;">1</div>
                 <div>
@@ -1549,7 +1556,10 @@ def main():
                     <p style="margin: 5px 0 0; color: #4b5563;">in PDF, DOCX, or TXT format</p>
                 </div>
             </div>
-    
+            """, unsafe_allow_html=True)
+            
+            # Step 2
+            st.markdown("""
             <div style="display: flex; align-items: center; margin: 20px 0; background-color: white; padding: 16px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
                 <div style="background-color: #3b82f6; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 16px;">2</div>
                 <div>
@@ -1557,7 +1567,10 @@ def main():
                     <p style="margin: 5px 0 0; color: #4b5563;">with requirements and responsibilities</p>
                 </div>
             </div>
-    
+            """, unsafe_allow_html=True)
+            
+            # Step 3
+            st.markdown("""
             <div style="display: flex; align-items: center; margin: 20px 0; background-color: white; padding: 16px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
                 <div style="background-color: #3b82f6; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 16px;">3</div>
                 <div>
@@ -1565,15 +1578,17 @@ def main():
                     <p style="margin: 5px 0 0; color: #4b5563;">including skill evaluations, job match analysis, and recommendations</p>
                 </div>
             </div>
-        </div>
-    
-        <div style="margin-top: 30px; background-color: #e0f2fe; padding: 20px; border-radius: 10px; border-left: 5px solid #38bdf8;">
-            <h3 style="color: #0c4a6e; margin-top: 0;">Privacy & Data</h3>
-            <p style="color: #0e7490; margin-bottom: 0;">
-                All data is processed temporarily and not stored permanently. Analysis results can be downloaded for your records.
-            </p>
-        </div>
-        """, unsafe_allow_html=True)
+            """, unsafe_allow_html=True)
+            
+            # Privacy note
+            st.markdown("""
+            <div style="margin-top: 30px; background-color: #e0f2fe; padding: 20px; border-radius: 10px; border-left: 5px solid #38bdf8;">
+                <h3 style="color: #0c4a6e; margin-top: 0;">Privacy & Data</h3>
+                <p style="color: #0e7490; margin-bottom: 0;">
+                    All data is processed temporarily and not stored permanently. Analysis results can be downloaded for your records.
+                </p>
+            </div>
+            """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
