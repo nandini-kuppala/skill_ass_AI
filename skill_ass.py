@@ -27,7 +27,7 @@ print(f"SERPER_API_KEY loaded: {'Yes' if SERPER_API_KEY else 'No'}")
 print(f"GEMINI_API_KEY loaded: {'Yes' if GEMINI_API_KEY else 'No'}")
 # Configure Gemini API
 genai.configure(api_key=GEMINI_API_KEY)
-gemini_pro = genai.GenerativeModel('gemini-1.5-flash')
+gemini_pro = genai.GenerativeModel('gemini-2.0-flash-lite')
 print("Environment and API configurations loaded successfully.")
 
 class SearchTool(Tool):
@@ -438,7 +438,7 @@ def extract_certifications(text):
 def create_document_parser_agent():
     """Create an improved document parser agent with enhanced profile extraction capabilities."""
     llm = ChatLiteLLM(
-        model="gemini/gemini-1.5-flash",
+        model="gemini/gemini-2.0-flash-lite",
         api_key=GEMINI_API_KEY,
         temperature=0.2
     )
@@ -460,7 +460,7 @@ def create_document_parser_agent():
 def create_profile_scraper_agent():
     """Create an improved profile scraper agent."""
     llm = ChatLiteLLM(
-        model="gemini/gemini-1.5-flash",
+        model="gemini/gemini-2.0-flash-lite",
         api_key=GEMINI_API_KEY,
         temperature=0.2
     )
@@ -487,7 +487,7 @@ def create_profile_scraper_agent():
 def create_technical_evaluator_agent():
     """Create an improved technical evaluator agent."""
     llm = ChatLiteLLM(
-        model="gemini/gemini-1.5-flash",
+        model="gemini/gemini-2.0-flash-lite",
         api_key=GEMINI_API_KEY,
         temperature=0.2
     )
@@ -508,7 +508,7 @@ def create_technical_evaluator_agent():
 def create_job_alignment_agent():
     """Create an improved job alignment agent."""
     llm = ChatLiteLLM(
-        model="gemini/gemini-1.5-flash",
+        model="gemini/gemini-2.0-flash-lite",
         api_key=GEMINI_API_KEY,
         temperature=0.2
     )
@@ -530,7 +530,7 @@ def create_job_alignment_agent():
 def create_interview_question_generator_agent():
     """Create an improved interview question generator agent."""
     llm = ChatLiteLLM(
-        model="gemini/gemini-1.5-flash",  
+        model="gemini/gemini-2.0-flash-lite",  
         api_key=GEMINI_API_KEY,
         temperature=0.3  # Slightly higher for creative questions
     )
@@ -552,7 +552,7 @@ def create_interview_question_generator_agent():
 def create_evaluation_pipeline_agent():
     """Create a new agent for implementing the stage-by-stage evaluation pipeline."""
     llm = ChatLiteLLM(
-        model="gemini/gemini-1.5-flash",
+        model="gemini/gemini-2.0-flash-lite",
         api_key=GEMINI_API_KEY,
         temperature=0.2
     )
@@ -572,7 +572,7 @@ def create_evaluation_pipeline_agent():
 def create_summary_generator_agent():
     """Create an improved summary generator agent."""
     llm = ChatLiteLLM(
-        model="gemini/gemini-1.5-flash",  # Using Pro for better quality summaries
+        model="gemini/gemini-2.0-flash-lite",  # Using Pro for better quality summaries
         api_key=GEMINI_API_KEY,
         temperature=0.2
     )
