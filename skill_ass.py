@@ -12,7 +12,7 @@ import requests
 # For LLM integrations
 import google.generativeai as genai
 from langchain_community.chat_models import ChatLiteLLM
-
+from crewai import LLM
 # For Crew AI
 from crewai import Agent, Task, Process, Crew
 from crewai.tools.base_tool import BaseTool as Tool
@@ -27,8 +27,10 @@ print(f"SERPER_API_KEY loaded: {'Yes' if SERPER_API_KEY else 'No'}")
 print(f"GEMINI_API_KEY loaded: {'Yes' if GEMINI_API_KEY else 'No'}")
 # Configure Gemini API
 genai.configure(api_key=GEMINI_API_KEY)
-gemini_pro = genai.GenerativeModel('gemini-1.5-flash')
+gemini_pro = genai.GenerativeModel('gemini-2.0-flash-lite')
 print("Environment and API configurations loaded successfully.")
+
+
 
 class SearchTool(Tool):
     name: str = "Search Tool"
@@ -437,10 +439,10 @@ def extract_certifications(text):
     return certifications
 def create_document_parser_agent():
     """Create an improved document parser agent with enhanced profile extraction capabilities."""
-    llm = ChatLiteLLM(
-        model="google/gemini-1.5-flash",
-        api_key=GEMINI_API_KEY,
-        temperature=0.2
+    llm = LLM(
+    model="gemini/gemini-2.0-flash-lite",  
+    temperature=0.2,
+    api_key=st.secrets["GEMINI_API_KEY"] 
     )
     return Agent(
         role="Document Parser Specialist",
@@ -459,10 +461,10 @@ def create_document_parser_agent():
 
 def create_profile_scraper_agent():
     """Create an improved profile scraper agent."""
-    llm = ChatLiteLLM(
-        model="google/gemini-1.5-flash",
-        api_key=GEMINI_API_KEY,
-        temperature=0.2
+    llm = LLM(
+    model="gemini/gemini-2.0-flash-lite",  
+    temperature=0.2,
+    api_key=st.secrets["GEMINI_API_KEY"] 
     )
     return Agent(
         role="Profile Data Collector",
@@ -486,11 +488,11 @@ def create_profile_scraper_agent():
 
 def create_technical_evaluator_agent():
     """Create an improved technical evaluator agent."""
-    llm = ChatLiteLLM(
-        model="google/gemini-1.5-flash",
-        api_key=GEMINI_API_KEY,
-        temperature=0.2
-    )
+    llm = LLM(
+    model="gemini/gemini-2.0-flash-lite",  
+    temperature=0.2,
+    api_key=st.secrets["GEMINI_API_KEY"] 
+    )    
     return Agent(
         role="Technical Skills Evaluator",
         goal="Assess technical proficiency based on resume claims, coding profiles, and certification evidence",
@@ -507,10 +509,10 @@ def create_technical_evaluator_agent():
 
 def create_job_alignment_agent():
     """Create an improved job alignment agent."""
-    llm = ChatLiteLLM(
-        model="google/gemini-1.5-flash",
-        api_key=GEMINI_API_KEY,
-        temperature=0.2
+    llm = LLM(
+    model="gemini/gemini-2.0-flash-lite",  
+    temperature=0.2,
+    api_key=st.secrets["GEMINI_API_KEY"] 
     )
     return Agent(
         role="Job Requirements Specialist",
@@ -529,10 +531,10 @@ def create_job_alignment_agent():
 
 def create_interview_question_generator_agent():
     """Create an improved interview question generator agent."""
-    llm = ChatLiteLLM(
-        model="google/gemini-1.5-flash",  
-        api_key=GEMINI_API_KEY,
-        temperature=0.3  # Slightly higher for creative questions
+    llm = LLM(
+    model="gemini/gemini-2.0-flash-lite",  
+    temperature=0.2,
+    api_key=st.secrets["GEMINI_API_KEY"] 
     )
     return Agent(
         role="Technical Interview Question Generator",
@@ -551,10 +553,10 @@ def create_interview_question_generator_agent():
 
 def create_evaluation_pipeline_agent():
     """Create a new agent for implementing the stage-by-stage evaluation pipeline."""
-    llm = ChatLiteLLM(
-        model="google/gemini-1.5-flash",
-        api_key=GEMINI_API_KEY,
-        temperature=0.2
+    llm = LLM(
+    model="gemini/gemini-2.0-flash-lite",  
+    temperature=0.2,
+    api_key=st.secrets["GEMINI_API_KEY"] 
     )
     return Agent(
         role="Evaluation Pipeline Manager",
@@ -571,10 +573,10 @@ def create_evaluation_pipeline_agent():
     )
 def create_summary_generator_agent():
     """Create an improved summary generator agent."""
-    llm = ChatLiteLLM(
-        model="google/gemini-1.5-flash",  # Using Pro for better quality summaries
-        api_key=GEMINI_API_KEY,
-        temperature=0.2
+    llm = LLM(
+    model="gemini/gemini-2.0-flash-lite",  
+    temperature=0.2,
+    api_key=st.secrets["GEMINI_API_KEY"] 
     )
     return Agent(
         role="Assessment Summary Specialist",
